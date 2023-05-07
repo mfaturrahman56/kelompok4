@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:projek1/page/ayat_kursi_page.dart';
 import 'package:projek1/page/bacaan_sholat_page.dart';
 
 
@@ -85,7 +86,9 @@ class _MainPageState extends State<MainPage> {
                   child: InkWell(
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
-                    onTap: () {
+                    onTap: ()  { 
+                          Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => AyatKursi()));
                      
                     },
                     child: Column(
