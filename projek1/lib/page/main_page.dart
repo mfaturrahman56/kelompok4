@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:projek1/page/bacaan_sholat_page.dart';
 import 'package:projek1/page/katakata.dart';
-
+import 'package:projek1/page/niat_sholat_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -28,14 +28,17 @@ class _MainPageState extends State<MainPage> {
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
                     onTap: () {
-                     
+                     Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => niatsholat()));
                     },
                     child: Column(
                       children: [
                         Image(
                           image: AssetImage("assets/images/sholatt.png"),
-                          height: 100,
-                          width: 100,
+                          height: 50,
+                          width: 50,
                         ),
                         SizedBox(height: 10),
                         Text(
@@ -65,8 +68,8 @@ class _MainPageState extends State<MainPage> {
                       children: [
                         Image(
                           image: AssetImage("assets/images/bacaan.png"),
-                          height: 100,
-                          width: 100,
+                          height: 50,
+                          width: 50,
                         ),
                         SizedBox(height: 10),
                         Text(
@@ -93,8 +96,8 @@ class _MainPageState extends State<MainPage> {
                       children: [
                         Image(
                           image: AssetImage("assets/images/ayatkursi.png"),
-                          height: 100,
-                          width: 100,
+                          height: 50,
+                          width: 50,
                         ),
                         SizedBox(height: 10),
                         Text(
@@ -123,9 +126,9 @@ class _MainPageState extends State<MainPage> {
                     child: Column(
                       children: [
                         Image(
-                          image: AssetImage("assets/images/allah.png"),
-                          height: 100,
-                          width: 100,
+                          image: AssetImage("assets/images/ftyt.png"),
+                          height: 50,
+                          width: 50,
                         ),
                         SizedBox(height: 10),
                         Text(
