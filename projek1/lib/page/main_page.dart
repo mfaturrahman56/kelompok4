@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:projek1/page/bacaan_sholat_page.dart';
+import 'package:projek1/page/katakata.dart';
 
 
 class MainPage extends StatefulWidget {
@@ -98,6 +99,37 @@ class _MainPageState extends State<MainPage> {
                         SizedBox(height: 10),
                         Text(
                           "Ayat Kursi",
+                          style: TextStyle(
+                              fontSize: 14, fontWeight: FontWeight.bold),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 40),
+              Container(
+                margin: EdgeInsets.all(10),
+                child: Expanded(
+                  child: InkWell(
+                    highlightColor: Colors.transparent,
+                    splashColor: Colors.transparent,
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => katakata()));
+                    },
+                    child: Column(
+                      children: [
+                        Image(
+                          image: AssetImage("assets/images/allah.png"),
+                          height: 100,
+                          width: 100,
+                        ),
+                        SizedBox(height: 10),
+                        Text(
+                          "Cerita Nabi",
                           style: TextStyle(
                               fontSize: 14, fontWeight: FontWeight.bold),
                         ),
