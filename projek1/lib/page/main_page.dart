@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:projek1/page/bacaan_sholat_page.dart';
 import 'package:projek1/page/katakata.dart';
 import 'package:projek1/page/niat_sholat_page.dart';
+import 'package:projek1/page/ayat_kursi_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -90,6 +91,10 @@ class _MainPageState extends State<MainPage> {
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
                     onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => ayatkursi()));
                      
                     },
                     child: Column(
