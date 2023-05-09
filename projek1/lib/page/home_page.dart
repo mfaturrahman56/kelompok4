@@ -4,6 +4,7 @@ import 'package:projek1/page/katakata.dart';
 import 'package:projek1/page/niat_sholat_page.dart';
 import 'package:projek1/page/ayat_kursi_page.dart';
 import 'package:projek1/page/sholawat_page.dart';
+import 'package:projek1/page/loading_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
