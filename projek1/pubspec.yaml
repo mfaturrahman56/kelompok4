@@ -70,6 +70,9 @@ flutter:
   - assets/images/sholatt.png
   - assets/images/istanbul.png
   - assets/images/ftyt.png
+  - assets/images/header.jpg
+  - assets/images/sholawat3.png
+  - assets/images/suratpendek.png
   - assets/data/bacaanshalat.json
   - assets/data/niatshalat.json
   
