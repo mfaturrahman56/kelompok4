@@ -3,6 +3,7 @@ import 'package:projek1/page/bacaan_sholat_page.dart';
 import 'package:projek1/page/katakata.dart';
 import 'package:projek1/page/niat_sholat_page.dart';
 import 'package:projek1/page/ayat_kursi_page.dart';
+import 'package:projek1/page/sholawat_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -205,7 +206,12 @@ class HomePage extends StatelessWidget {
                       width: 200,
                       height: 200,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                     Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => sholawat()),
+                      );
+                    },
                   ),
                 ),
               ),
