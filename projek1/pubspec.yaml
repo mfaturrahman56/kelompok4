@@ -82,6 +82,7 @@ flutter:
   - assets/data/bacaanshalat.json
   - assets/data/niatshalat.json
   - assets/data/sholawat.json
+  - assets/data/suratpendek.json
 
   
 

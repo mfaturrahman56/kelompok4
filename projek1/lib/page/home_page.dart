@@ -4,7 +4,9 @@ import 'package:projek1/page/katakata.dart';
 import 'package:projek1/page/niat_sholat_page.dart';
 import 'package:projek1/page/ayat_kursi_page.dart';
 import 'package:projek1/page/sholawat_page.dart';
+import 'package:projek1/page/surat_pendek_page.dart';
 import 'package:projek1/page/loading_page.dart';
+
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -242,7 +244,13 @@ class HomePage extends StatelessWidget {
                       width: 450,
                       height: 450,
                     ),
-                    onPressed: () {},
+                    
+                      onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => suratpendek()),
+                      );
+                    },
                   ),
                 ),
               ),
