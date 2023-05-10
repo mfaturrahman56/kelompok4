@@ -78,11 +78,13 @@ flutter:
   - assets/images/sholawat3.png
   - assets/images/sholawat22.png
   - assets/images/suratpendek.png
+  - assets/images/suratpendek2.png
   - assets/images/anu.jpg
   - assets/data/bacaanshalat.json
   - assets/data/niatshalat.json
   - assets/data/sholawat.json
   - assets/data/suratpendek.json
+
 
   
 

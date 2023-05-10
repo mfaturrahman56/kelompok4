@@ -19,7 +19,7 @@ class _LoadingPageState extends State<LoadingPage> {
   }
 
   void goToHome() async {
-    await Future.delayed(const Duration(seconds: 20), () {
+    await Future.delayed(const Duration(seconds: 15), () {
       Navigator.pushAndRemoveUntil(
         context,
         MaterialPageRoute(builder: (context) => const HomePage()),
@@ -60,10 +60,10 @@ class _LoadingPageState extends State<LoadingPage> {
                   Container(
                     margin: const EdgeInsets.only(left: 10),
                     child: const Text(
-                      'Rasulullah SAW pernah berdoa, “Ya Allah, barangsiapa yang mengurusi urusan umatku kemudian dia merepotkan umatku maka susahkanlah dia” (HR. Muslim: 1828)',
+                      'Sabar ye loading nyo cuma 15 detik idak bohong kakak',
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 15,
+                        fontSize: 14,
                       ),
                     ),
                   ),
